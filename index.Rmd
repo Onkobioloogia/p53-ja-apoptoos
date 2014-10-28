@@ -207,8 +207,8 @@ onkogeenne signalisatsioon | MYC, E2F1 üle-ekspressioon, DNA demetülatsioon
 ## DNA kahjustused ja onkogeenid stabiliseerivad p53
 
 Peamised p53 stabilisatsiooni rajad
-- dsDNA kahjustus, ioniseeriv kiirgus, telomeeride lühenemine aktiveerib ATM $\rightarrow$ Chk2 raja.
-- ssDNA, UV kiirgus, replikatsioonistress, kemoterapeutikumid akiveerivad ATR (*ATM–Rad3-related protein*) $\rightarrow$ Chk1 raja.
+- dsDNA kahjustus, ioniseeriv kiirgus, telomeeride lühenemine aktiveerib ATM $\to$ Chk2 raja.
+- ssDNA, UV kiirgus, replikatsioonistress, kemoterapeutikumid akiveerivad ATR (*ATM–Rad3-related protein*) $\to$ Chk1 raja.
 - p53 fosforüleeritakse amino terminusest Ser-15, Ser-37 jt.
 - Amino-terminaalne fosforüleerimine blokeerib **MDM2** sidumise p53.
 - Myc või E2F1 aktivatsioon viib rakus **p19^ARF** valgu taseme ülesse, mis blokeerib MDM2 ja võib viia rakud apoptoosi.
@@ -233,15 +233,47 @@ Peamised p53 stabilisatsiooni rajad
 ![mdm](assets/fig/p53MDM2.jpg)
 
 ---
-## p19^ARF
+## ARF
 
-- p19^ARF valku kodeerib kompaktne geneetiline lookus kus asub kokku kolm tuumorsupressorgeeni: p16^INK4A, p15^INK4B ja p19^ARF .
-- p19^ARF geeni promootor asub 13 kB ülevalpool p16^INK4A promootorist.
+- p19^ARF (hiir) või p14^ARF (inimene) valku kodeerib kompaktne geneetiline lookus kus asub kokku kolm tuumorsupressorgeeni: p16^INK4A, p15^INK4B ja p19/p14^ARF .
+- ARF geeni promootor asub 13 kB ülevalpool p16^INK4A promootorist. ARF - _**a**lternative **r**eading **f**rame_.
+- **ARF seob MDM2** ja inhibeerib selle korjates ta tuumakesse.
+- ARF ekspressiooni aktiveerivad c-MYC, RAS ja ka adenoviiruse E1A.
 
 ![arf](http://www.hhmi.org/sites/default/files/Our%20Scientists/Investigators/sherr_fig1_lg.jpg)
 
 <a href="http://www.hhmi.org/research/arf-tumor-suppression-stem-cells-and-cancer" target="_blank"style="font-size:12pt">Pilt:HHMI</a>
 
+---
+## Rb funktsiooni kadumine käivitab ka apoptoosi programmi
+
+- E2F liigse aktiivsuse puhuks on evolutsiooniliselt kujunenud mehhanism, mis elimineerib normaalse pRb kontrolli kaotanud rakud.
+- Kõrge E2F1 aktiveerib mitmete apoptootiliste geenide transkriptsiooni: kaspaasid (3,7,8,9), pro-apoptootilised Bcl2 valgud (Bim, Noxa, PUMA), Apaf-1 ja p73 (p53 homoloog).
+- E2F1/2 reguleerib ka p53-sõltuvat apoptoosi indutseerides p14^ARF .
+
+RB-sõltuv apoptoosi rada: **pRb** $\dashv$ **E2F** $\to$ **ARF** $\dashv$ **MDM2** $\dashv$ **p53** $\to$ **apoptoos**
+
+---
+Valik p53 märklaud geene.
+
+Geeni funktsionaalne klass | Geen | Funktsioon
+---------------------------|------|------------
+p53 antagonist | MDM2 | p53 ubikvitiinligaas
+rakutsükli inhibiitorid | p21^CIP1 | CDK inhibiitor
+  | Siah-1 | ubikvitiinligaas, $\beta$-kateniini lagundamine
+  | 14-3-3$\sigma$ | tsükliin B-CDK1 inhibiitor
+  | Reprimo | G2 arrest
+DNA reparatsioon  | p53R2 | DNA biosüntees
+ | XPE/DDB2, XPG, XPC | NER (*nucleotide excision repair*)
+ | GADD45 | NER (*nucleotide excision repair*)
+ | DNA pol. $\kappa$ | DNA polümeraas
+apoptoos | BAX | mt poorivalk 
+ | PUMA, NOXA | BH3 mt poorivalk
+ | APAF1 | kaspaas-9 aktivaator
+ | NF-$\kappa$B | TF
+ | Fas/APO1 | surmaretseptor
+anti-angiogenees | TSP-1 (trombospondiin) | *ECM* valk
+ 
 
 ---
 ## Lingid eelmistele loengutele
