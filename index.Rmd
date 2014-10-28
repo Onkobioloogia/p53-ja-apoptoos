@@ -235,9 +235,13 @@ Peamised p53 stabilisatsiooni rajad
 ---
 ## p19^ARF
 
-- compact genetic locus that specifies three additional tumor-suppressor proteins: p16Ink4a, p15Ink4b, and p19Arf
+- p19^ARF valku kodeerib kompaktne geneetiline lookus kus asub kokku kolm tuumorsupressorgeeni: p16^INK4A, p15^INK4B ja p19^ARF .
+- p19^ARF geeni promootor asub 13 kB ülevalpool p16^INK4A promootorist.
 
 ![arf](http://www.hhmi.org/sites/default/files/Our%20Scientists/Investigators/sherr_fig1_lg.jpg)
+
+<a href="http://www.hhmi.org/research/arf-tumor-suppression-stem-cells-and-cancer" target="_blank"style="font-size:12pt">Pilt:HHMI</a>
+
 
 ---
 ## Lingid eelmistele loengutele
