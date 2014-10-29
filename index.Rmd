@@ -319,6 +319,26 @@ anti-angiogenees | TSP-1 (trombospondiin) | *ECM* valk
 - p53 aktiveerib näiteks CD95 (Fas/APO1) ja mitmete Bcl-2 perekonna pro-apoptootiliste geenide transkriptsiooni.
 - p53-indutseeritud apoptoos kulgeb siiski peamiselt läbi mitokondriaalse tsütokroom c vahendatud kaspaaside aktivatsiooni.
 
+---&twocol
+## INK4a/ARF mutations accelerate lymphomagenesis and promote chemoresistance by disabling p53
+
+***=left
+
+E$\mu$–myc transgeensed hiired ekspresseerivad konstitutiivselt c-Myc-i B-rakkudes ja neil areneb välja B-raku lümfoom ja leukeemia. p53 või/ja ARF knockout selles mudelis kiirendab oluliselt lümfoomi teket (joonisel: c,d,e).
+
+<img src="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC317110/bin/gad.3f1.jpg" style="width:200px">
+
+***=right
+
+p53 või/ja ARF knockout pärsib apoptoosi.
+
+<img src="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC317110/bin/gad.3f3.jpg" style="width:200px">
+
+[Pildid:Genes Dev. Oct 15, 1999; 13(20): 2670–2677](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC317110/)
+
+--- .segue .dark .nobackground
+## Apoptoos
+
 ---
 ## Apoptoosi mehhanismid: sisemine ja ligand vahendatud
 
@@ -424,6 +444,10 @@ forbool estrid (PMA) | PUMA
 <img src="http://www.nature.com/nature/journal/v409/n6817/images/409207aa.2.jpg" style="width:300px">
 
 <p style="font-size=10pt">Pilt: Apaf-1 loss in metastatic melanoma. doi:10.1038/35051606</p>
+
+---
+
+> Vähirakud kasutavad erinevaid mehhanisme, et vaigistada apoptoosi masinavärk ja kontrollimatult paljuneda. Selleks kasutavad nad Akt/PKB raja aktivatsiooni, anti-apoptootiliste Bcl2 valkude üle-ekspressiooni, p53 inaktivatsiooni, pro-apoptootiliste geenide promootorite hüpermetüleerimist, tsütokroom c vabanemise pärssimist, kaspaaside inhibitsiooni. 
 
 ---
 ## Lingid eelmistele loengutele
