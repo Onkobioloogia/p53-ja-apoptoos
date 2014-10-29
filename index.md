@@ -67,7 +67,7 @@ background-color: #CBE7A5; /* ; ; */
 
 
 
-
+--- .segue .dark .nobackground
 ## Recap
 
 ---
@@ -298,30 +298,114 @@ anti-angiogenees | TSP-1 (trombospondiin) | *ECM* valk
 ---
 ## p53 anti-neoplastiline toime on peamiselt tingitud apoptoosi induktsioonist
 
-- p53 aktiveerib Fas/APO1 ja mitmete Bcl-2 pro-apoptootiliste geenide transkriptsiooni.
-- p53-indutseeritud apoptoos kulgeb peamiselt läbi tsütokroom c vabanemise mitokondrist ja kaspaaside aktivatsiooni.
+- p53 aktiveerib näiteks CD95 (Fas/APO1) ja mitmete Bcl-2 perekonna pro-apoptootiliste geenide transkriptsiooni.
+- p53-indutseeritud apoptoos kulgeb siiski peamiselt läbi mitokondriaalse tsütokroom c vahendatud kaspaaside aktivatsiooni.
 
 ---
-## Apoptoosi mehhanismid
+## Apoptoosi mehhanismid: sisemine ja ligand vahendatud
 
 - Vastusena apoptootilistele stiimulitele aktiveeritakse kõigepealt initsiaator kaspaasid(kaspaas-2,-8,-9,-10) mis aktiveerivad omakorda effektor kaspaasid (kaspaas-3 või -7).
 - Kaspaaside kaskaadi aktiveerimine käivitab raku valkude proteolüütilise lagundamise ja rakusurma.
 - Selliselt surnud rakud fragmenteeruvad vesiikuliteks ja fagotsüteeritakse teiste rakkude poolt.
-- **Apoptoos käivitatakse rakkudes läbi kahe mehhanismi**: rakkude sisemine vastus stressile ja ligand indutseeritud.
-- Rakkude sisemine mehhanism käib üle **tsütokroom c vabanemise mitokondrist** ja indutseeritud mehhanism käib läbi **surmaretseptorite**.
+- Rakkude sisemine (*intrinsic*) mehhanism käib üle **tsütokroom c vabanemise mitokondrist** ja indutseeritud mehhanism käib läbi **surmaretseptorite** või **TNF ja TRAIL**-i raja.
 
 <img src="http://web.stanford.edu/class/humbio153/ImmuneEvasion/images/clip_image019.png" style="width:260px">
 
+----
+## Kaks apoptoosi rada
+
+![twopathways](assets/fig/two-pathways.png)
+
+
+[Allikas:BH3-only proteins in apoptosis at a glance](http://jcs.biologists.org/content/125/5/1081/F1.poster.jpg)
+
 ---
-## Mitokondriaalne apoptoos
+## *B cell lymphoma 2 (BCL-2)* perekonna valgud
 
+- Pro- ja anti-apoptootiliste BCL-2 perekonna valkude tasakaal määrab mitokondriaalse raja aktiveerumise.
+- BCL-2 valke klassifitseeritakse valgus olevate BH domäänide (*BCL-2 homology*) järgi. 
+- Pro-apoptootilised BCL-2 valkude hulka kuuluvad *BH3-only* valgud BIM (*Bcl2-interacting mediator of cell death*), BID (*BH3-interacting domain death agonist*) ja BAD (*Bcl2-associated agonist of cell death*) ning multi BH domääne sisaldavad valgud BAX (*Bcl2-associated protein X*), BAK (*Bcl2 antagonist/killer*) ja BOK.
+- Anti-apoptootilised (*prosurvival*) BCL-2, BCL-XL (*B cell lymphoma extra large*) ja MCL-1 (*induced myeloid leukemia cell differentiation protein*), mis sisaldavad kõiki BH1-BH4 domääne.
+- Anti-apoptootilised valgud toimivad nii, et nad sekvesteerivad pro-apoptootilised valgud.
+
+
+<img src="assets/fig/Bcl2familyvalues.png" style="width:300px">
+
+---&twocol
+## Apoptoosis osalevad valgud on vähis dereguleeritud
+
+***=left
+
+![updown](http://ars.els-cdn.com/content/image/1-s2.0-S0962892413001177-gr1.jpg)
+
+***=right
+
+- Vähis on apoptoosis osalevad geenid ja geeniproduktid ülesse või alla reguleeritud kas 
+    - transkriptsiooni tasemel (sinised kolmnurgad), 
+    - translatsiooni tasemel (punased) või 
+    - posttranslatsiooniliselt (rohelised). 
+
+[Allikas:Evading apoptosis in cancer](http://www.sciencedirect.com/science/article/pii/S0962892413001177)
 
 ---
-## Surmaretseptorid
 
+BH3 geen | KO hiire fenotüüp | inimese vähk | BH3 geeni muutused
+---------|-------------------|--------------|-----------
+BIM | lümfoid ja müeloid hüperplaasia | mantelraku lümfoom, Burkitti lümfoom | homosügootne deletsioon, promootori hüpermetülatsioon, promootori mutatsioon
+PUMA | $\gamma$-kiirguse resistentsus | pea-kaela lamerakuline kartsinoom, mitte-väikserakuline kopsuvähk | LOH
+ | | glioom, neuroblastoom, B-raku lümfoom | vaigistamise kadu
+ | | melanoom | vähenenud ekspressioon
+ | | ninaõõne- ja mao kartsinoom | $\uparrow$ miR-34a ekspressioon
+NOXA | normaalne | | ei ole muutunud
+BMF | progressiivne B-lümfoidne hüperplaasia | Burkitti lümfoom | $\downarrow$ ekspressioon
+ | B-raku krooniline lümfotsüütne leukeemia | $\uparrow$ ekspressioon
+ | rinna-, kopsu- ja käärsoole kasvaja | lookuse 14q14.15 deletsioon
+BAD | ~norm; vähesel määral esineb difuusset suure B-rakulist lümfoomi | käärsoole adenokartsinoom | *loss-of-function* mutatsioon (BH3 domään) 
 
 ---
-## Kasvajates dereguleeritud apoptoosirajad
+## BH3 valkude regulatsioon
+
+![bh3](assets/fig/BH3regulatsioon.png)
+
+[Allikas:BH3-only proteins in apoptosis at a glance](http://jcs.biologists.org/content/125/5/1081/F1.poster.jpg)
+
+---
+## Onkogeensed kinaasid reguleerivad MCL-1, BIM ja PUMA
+
+![tki](http://ars.els-cdn.com/content/image/1-s2.0-S0962892413001177-gr2.jpg)
+
+[Allikas:Evading apoptosis in cancer](http://www.sciencedirect.com/science/article/pii/S0962892413001177)
+
+---
+## Erinevad stiimulid indutseerivad erineva *BH3-only* repertuaari
+
+stiimul | BH3 valk
+--------|---------
+tsütokiinide nälg | BIM, PUMA, BAD, HRK
+proteasoomi inhibiitorid (*Bortezomib*) | BIM, NOXA, BID, BIK
+DNA kahjustused (kemoteraapia, $\gamma$-kiirgus) | BIM, PUMA, NOXA
+glukokortikoidid (*Dexamethasone*) | BIM, PUMA, BMF
+türosiin kinaasi inhibiitorid (*Gefitinib, Imatinib*) | BIM, BMF, BAD
+HDAC inhibiitorid (*Vorinostat*) | BIM, BID, BMF
+ionomütsiin | BIM
+*Paclitaxel* | BIM
+forbool estrid (PMA) | PUMA
+
+--- &twocol
+## Apaf-1 vaigistamine melanoomis annab sellele kemoresistentsuse
+
+***=left
+
+- Melanoomid kannavad sagedasti *wild-type* p53 geeni.
+- Apoptoos on neis supresseeritud läbi Apaf-1 valgu ekspressiooni kadumise. 
+- Apaf-1 vaigistamine toimub läbi epigeneetilise mehhanismi ja LOH-i.
+- DNA metülatsiooni või histooni deatsetüleerimist supresseerivad agendid on võimelised taastama Apaf-1 ekspressiooni ja melanoomirakkude tundlikkuse kemoterapeutilistele ühenditele.
+
+***=right
+
+<img src="http://www.nature.com/nature/journal/v409/n6817/images/409207aa.2.jpg" style="width:300px">
+
+<p style="font-size=10pt">Pilt: Apaf-1 loss in metastatic melanoma. doi:10.1038/35051606</p>
 
 ---
 ## Lingid eelmistele loengutele
