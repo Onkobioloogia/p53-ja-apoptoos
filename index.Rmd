@@ -75,6 +75,45 @@ opts_chunk$set(comment = "", error= TRUE, warning = FALSE, message = FALSE,
 ## Recap
 
 ---
+## Rakutsükkel
+
+- Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks.
+- **Raku rakutsüklisse sisenemist reguleerivad raku väliskeskkonna signaalid**.
+- Mittejagunev rakk on vaikeolekus (*quiescence*) ehk **G0** faasis.
+
+---
+## Rakku jagunema/mittejagunema mõjutavad signaalid
+
+**Rakk on tundlik väliskeskonna signalisatsioonile varases ja keskmises G1 faasis**.
+
+- $\uparrow$ türosiin kinaas retseptorid (mitogeenid).
+- $\uparrow$ G-valk retseptorid (GPCR).
+- $\downarrow$ TGF-$\beta$ retseptorid, TGF-$\beta$ on üks prominentsemaid anti-mitogeene.
+- $\downarrow$ toitainestaatus.
+
+---
+## Tsükliinid ja CDK inhibiitorid
+
+- Kasvufaktorid stimuleerivad kiire tsükliin D taseme tõusu rakus ja CDK4/6 aktivatsiooni.
+- Anti-mitogeenne TGF-$\beta$ signalisatsioon aktiveerib p15^INK4B tsükliini kinaasi inhibiitori.
+
+---
+## RB kontrollib restriktsioonipunkti
+
+- Peale R punkti on rakutsükli regulatsioon automaatne ja ei allu enam mitogeensele-anti-mitogeensele kontrollile.
+- R punkti läbimist reguleerib
+      - RB hüpofosforüleerimine tsükliin D-CDK4/6 poolt ja
+      - hüpofosfo-RB hüperfosforüleerimine tsükliin E-CDK2 poolt.
+
+---
+## Kasvajates on rakutsükkel dereguleeritud
+
+[Kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](http://tpall.github.io/Rakutsyklikontroll/cellcyclecancer.html)
+
+---.segue .dark .nobackground
+## TP53
+
+---
 ## p53 avastamine
 
 - 1979. aastal esitasid kuus sõltumatut uurimisrühma andmed, et nad on avastanud 53 kDa valgu inimese ja hiirte rakkudest ([DeLeo et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC383613/), [Kress et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC353470/), [Lane & Crawford 1979](http://www.nature.com/nature/journal/v278/n5701/abs/278261a0.html), [Linzer & Levine 1979](http://www.sciencedirect.com/science/article/pii/0092867479902939), [Melero et al. 1979](http://www.sciencedirect.com/science/article/pii/0042682279902502), [Smith et al. 1979)](http://www.sciencedirect.com/science/article/pii/0092867479900539). 
@@ -254,7 +293,7 @@ Peamised p53 stabilisatsiooni rajad
 RB-sõltuv apoptoosi rada: **pRb** $\dashv$ **E2F** $\to$ **ARF** $\dashv$ **MDM2** $\dashv$ **p53** $\to$ **apoptoos**
 
 ---
-Valik p53 märklaud geene.
+Valik p53 märklaud geene. Kokku on ~120 geeni leitud.
 
 Geeni funktsionaalne klass | Geen | Funktsioon
 ---------------------------|------|------------
@@ -273,7 +312,34 @@ apoptoos | BAX | mt poorivalk
  | NF-$\kappa$B | TF
  | Fas/APO1 | surmaretseptor
 anti-angiogenees | TSP-1 (trombospondiin) | *ECM* valk
- 
+
+---
+## p53 anti-neoplastiline toime on peamiselt tingitud apoptoosi induktsioonist
+
+- p53 aktiveerib Fas/APO1 ja mitmete Bcl-2 pro-apoptootiliste geenide transkriptsiooni.
+- p53-indutseeritud apoptoos kulgeb peamiselt läbi tsütokroom c vabanemise mitokondrist ja kaspaaside aktivatsiooni.
+
+---
+## Apoptoosi mehhanismid
+
+- Vastusena apoptootilistele stiimulitele aktiveeritakse kõigepealt initsiaator kaspaasid(kaspaas-2,-8,-9,-10) mis aktiveerivad omakorda effektor kaspaasid (kaspaas-3 või -7).
+- Kaspaaside kaskaadi aktiveerimine käivitab raku valkude proteolüütilise lagundamise ja rakusurma.
+- Selliselt surnud rakud fragmenteeruvad vesiikuliteks ja fagotsüteeritakse teiste rakkude poolt.
+- **Apoptoos käivitatakse rakkudes läbi kahe mehhanismi**: rakkude sisemine vastus stressile ja ligand indutseeritud.
+- Rakkude sisemine mehhanism käib üle **tsütokroom c vabanemise mitokondrist** ja indutseeritud mehhanism käib läbi **surmaretseptorite**.
+
+<img src="http://web.stanford.edu/class/humbio153/ImmuneEvasion/images/clip_image019.png" style="width:260px">
+
+---
+## Mitokondriaalne apoptoos
+
+
+---
+## Surmaretseptorid
+
+
+---
+## Kasvajates dereguleeritud apoptoosirajad
 
 ---
 ## Lingid eelmistele loengutele
