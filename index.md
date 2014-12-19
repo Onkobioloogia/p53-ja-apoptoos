@@ -163,6 +163,7 @@ Epstein-Barr | | EBNA-1 | LMP-1
 - p53 oli muteerunud väga erinevates vähkides ([Nigro et al. 1989](http://www.nature.com/nature/journal/v342/n6250/abs/342705a0.html))
 
 ---
+
 ## p53 mutatsioonisagedused kasvajates
 
 ![plot of chunk prevalence](assets/fig/prevalence-1.png) 
@@ -192,7 +193,7 @@ Epstein-Barr | | EBNA-1 | LMP-1
 
 ## p53 mutatsioonid asuvad peamiselt DNA sidumise domäänis
 
-![tp53dbd](TP53-mutations.png)
+![tp53dbd](assets/img/TP53-mutations.png)
 
 ---
 ## p53 mutandid on dominant negatiivsed
