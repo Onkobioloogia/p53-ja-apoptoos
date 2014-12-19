@@ -68,9 +68,11 @@ background-color: #CBE7A5; /* ; ; */
 
 
 --- .segue .dark .nobackground
+
 ## Recap
 
 ---
+
 ## Rakutsükkel
 
 - Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks.
@@ -78,6 +80,7 @@ background-color: #CBE7A5; /* ; ; */
 - Mittejagunev rakk on vaikeolekus (*quiescence*) ehk **G0** faasis.
 
 ---
+
 ## Rakku jagunema/mittejagunema mõjutavad signaalid
 
 **Rakk on tundlik väliskeskonna signalisatsioonile varases ja keskmises G1 faasis**.
@@ -88,12 +91,14 @@ background-color: #CBE7A5; /* ; ; */
 - $\downarrow$ toitainestaatus.
 
 ---
+
 ## Tsükliinid ja CDK inhibiitorid
 
 - Kasvufaktorid stimuleerivad kiire tsükliin D taseme tõusu rakus ja CDK4/6 aktivatsiooni.
 - Anti-mitogeenne TGF-$\beta$ signalisatsioon aktiveerib p15^INK4B tsükliini kinaasi inhibiitori.
 
 ---
+
 ## RB kontrollib restriktsioonipunkti
 
 - Peale R punkti on rakutsükli regulatsioon automaatne ja ei allu enam mitogeensele-anti-mitogeensele kontrollile.
@@ -102,14 +107,17 @@ background-color: #CBE7A5; /* ; ; */
       - hüpofosfo-RB hüperfosforüleerimine tsükliin E-CDK2 poolt.
 
 ---
+
 ## Kasvajates on rakutsükkel dereguleeritud
 
 [Kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](http://tpall.github.io/Rakutsyklikontroll/cellcyclecancer.html)
 
 ---.segue .dark .nobackground
+
 ## TP53
 
 ---
+
 ## p53 avastamine
 
 - 1979. aastal esitasid kuus sõltumatut uurimisrühma andmed, et nad on avastanud 53 kDa valgu inimese ja hiirte rakkudest ([DeLeo et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC383613/), [Kress et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC353470/), [Lane & Crawford 1979](http://www.nature.com/nature/journal/v278/n5701/abs/278261a0.html), [Linzer & Levine 1979](http://www.sciencedirect.com/science/article/pii/0092867479902939), [Melero et al. 1979](http://www.sciencedirect.com/science/article/pii/0042682279902502), [Smith et al. 1979)](http://www.sciencedirect.com/science/article/pii/0092867479900539). 
@@ -117,6 +125,7 @@ background-color: #CBE7A5; /* ; ; */
 - Sama valk avastati ka pooljuhuslikult kui keemiliselt transformeeritud sarkoomirakkude vastu genereeritud antiseerum tundis ära 53 kDa valgu transformeerunud rakkudest, kuid mitte normaalsetes rakkudes.
 
 ---
+
 # Onkoviiruste märklauaks on pRb, p53 ja apoptoos
 
 Viirus | Viirusvalk mille märklauaks on Rb | Viirusvalk mille märklauaks on p53 | Viirusvalk mille märklauaks on apoptoos
@@ -132,6 +141,7 @@ HTLV-I | Tax | |
 Epstein-Barr | | EBNA-1 | LMP-1
 
 ---
+
 ## p53 peeti algselt onkogeeniks
 
 - 1980.ndate alguses oli tuumorsupressorgeenide kontseptsioon veel väga teoreetiline ja viirustest isoleeritud rakulisi onkogeene peeti võtmeks vähi olemuse mõistmisel. 
@@ -140,9 +150,11 @@ Epstein-Barr | | EBNA-1 | LMP-1
 - **"Normaalse" p53 viimine normaalsetesse rakkudesse oli võimeline põhjustama rakkude transformeerumise**.
 
 <img src="http://www.nature.com/srep/2013/130722/srep02246/images/srep02246-f1.jpg" style="width:480px;"/>
-<p style="font-size:12pt">p53 immuunovärvimine metastaatilises rinnavähis (paremal) võrreldes normaalse koega (vasakul). Pilt: doi:10.1038/srep02246</p>
+
+<footer class="source">p53 immuunovärvimine metastaatilises rinnavähis (paremal) võrreldes normaalse koega (vasakul). Pilt: doi:10.1038/srep02246</footer>
 
 ---
+
 ## p53 on klassikaline "*two-hit*" tuumorsupressor
 
 - p53 ilmus jäädavalt radarile kui käärsoolevähist otsiti oletatavat tuumorsupressorgeeni kromosoomi 17p lookusest ([Baker et al. 1989](https://www.msu.edu/~luckie/paris/290B/Vogelstein.pdf)).
@@ -154,9 +166,10 @@ Epstein-Barr | | EBNA-1 | LMP-1
 ## p53 mutatsioonisagedused kasvajates
 
 ![plot of chunk prevalence](assets/fig/prevalence-1.png) 
-<p style="font-size:10pt">IARC TP53 Database R17, November 2013. Petitjean A, Mathe E, Kato S, Ishioka C, Tavtigian SV, Hainaut P, Olivier M. Impact of mutant p53 functional properties on TP53 mutation patterns and tumor phenotype: lessons from recent developments in the IARC TP53 database.Hum Mutat. 2007 Jun;28(6):622-9.</p>
+<footer class="source">IARC TP53 Database R17, November 2013. Petitjean A, Mathe E, Kato S, Ishioka C, Tavtigian SV, Hainaut P, Olivier M. Impact of mutant p53 functional properties on TP53 mutation patterns and tumor phenotype: lessons from recent developments in the IARC TP53 database.Hum Mutat. 2007 Jun;28(6):622-9.</footer>
 
 --- &twocol 
+
 ## TSG mutatsioonid
 
 
@@ -171,10 +184,12 @@ Epstein-Barr | | EBNA-1 | LMP-1
 
 ***=right
 
-![cosmic](assets/fig/tsg-mutation-spectrum.png)
-<p style="font-size:10pt">Andmed: TOP 5% enim mutatsioone sisaldavad TSG (kokku 637 TSG-st). TSG-d Vanderbilt University andmebaasist ja mutatsioonid COSMIC andmebaasist, cancer.sanger.ac.uk.</p>
+![cosmic](assets/img/tsg-mutation-spectrum.png)
+
+<footer class="source">Andmed: TOP 5% enim mutatsioone sisaldavad TSG (kokku 637 TSG-st). TSG-d Vanderbilt University andmebaasist ja mutatsioonid COSMIC andmebaasist, cancer.sanger.ac.uk.</footer>
 
 ---
+
 ## p53 mutatsioonid asuvad peamiselt DNA sidumise domäänis
 
 ![tp53dbd](TP53-mutations.png)
@@ -191,6 +206,7 @@ Epstein-Barr | | EBNA-1 | LMP-1
 ![homotetramer](http://www.cancerwatch.org/databaseimages/p53str.gif)
 
 ---
+
 ## p53 reguleeritakse valgu stabiilsuse läbi
 
 - Normaalsetes, mitte stressis olevates rakkudes on p53 väga ebastabiilne poolestusajaga 5-30 min.
@@ -199,9 +215,10 @@ Epstein-Barr | | EBNA-1 | LMP-1
 - Selline induktsioon ei ole tingitud p53 mRNA taseme tõusust.
 - p53 valgu tase tõuseb rakkudes täielikult tingituna post-translatsioonilistest modifikatsioonidest mis tõstavad selle normaalselt labiilse valgu stabiilsust.
 
-<img src="assets/fig/p53hela.jpg" style="width:400px;">
+<img src="assets/img/p53hela.jpg" style="width:400px;">
 
 ---&twocol
+
 ## p53 indutseerib stress
 
 ***=left
@@ -212,19 +229,22 @@ stress | hüpoksia, nukleotiidide puudus, UV kiirgus, ioniseeriv kiirgus, RNA- v
 onkogeenne signalisatsioon | MYC, E2F1 üle-ekspressioon, DNA demetülatsioon
 
 ***=right
+
 - **p53 taseme tõus rakkudes viib pöörduva või pöördumatu (*senescence*) rakutsükli arrestini**.
 - p53 aktiveerib DNA reparatsiooni raja.
 - p53 blokeerib angiogeneesi (TSP-1$\uparrow$).
 - **p53 indutseerib apoptoosi**
 
 ---
+
 ## p53 indutseerib p21 transkriptsiooni
 
 - p21 vahendab p53 rakutsüklit inhibeerivat efekti, samas p21 inhibeerib p53-sõltuvat apoptoosi.
 
-![p21](assets/fig/p21inhibitsapoptosis.png)
+![p21](assets/img/p21inhibitsapoptosis.png)
 
 ---
+
 ## DNA kahjustused ja onkogeenid stabiliseerivad p53
 
 Peamised p53 stabilisatsiooni rajad
@@ -237,6 +257,7 @@ Peamised p53 stabilisatsiooni rajad
 <img src="http://www-bcf.usc.edu/~forsburg/images/Image10.jpg" style="width:200px;">
 
 ---&twocol
+
 ## MDM2
 
 ***=right
@@ -247,13 +268,14 @@ Peamised p53 stabilisatsiooni rajad
 - MDM2 ekspressiooni indutseerib ka mitogeenne signalisatsioon läbi MAPK raja (AP-1 TF).
 - Samuti stabiliseerib MDM2 Akt/PKB, mille poolt fosfoforüleerimine blokeerib MDM2 auto-ubikvitineerimise.
 
-<p style="font-size:12pt">Double-minute kromosoomid on ekstrakoromosomaalne DNA kasvajates mis on tekkinud geeniamplifikatsiooni tagajärjel.</p>
+<footer class="source">Double-minute kromosoomid on ekstrakoromosomaalne DNA kasvajates mis on tekkinud geeniamplifikatsiooni tagajärjel.</footer>
 
 ***=left
 
-![mdm](assets/fig/p53MDM2.jpg)
+![mdm](assets/img/p53MDM2.jpg)
 
 ---
+
 ## ARF
 
 - p19^ARF (hiir) või p14^ARF (inimene) valku kodeerib kompaktne geneetiline lookus kus asub kokku kolm tuumorsupressorgeeni: p16^INK4A, p15^INK4B ja p19/p14^ARF .
@@ -266,6 +288,7 @@ Peamised p53 stabilisatsiooni rajad
 <a href="http://www.hhmi.org/research/arf-tumor-suppression-stem-cells-and-cancer" target="_blank"style="font-size:12pt">Pilt:HHMI</a>
 
 ---
+
 ## Rb funktsiooni kadumine käivitab ka apoptoosi programmi
 
 - E2F liigse aktiivsuse puhuks on evolutsiooniliselt kujunenud mehhanism, mis elimineerib normaalse pRb kontrolli kaotanud rakud.
@@ -275,6 +298,7 @@ Peamised p53 stabilisatsiooni rajad
 RB-sõltuv apoptoosi rada: **pRb** $\dashv$ **E2F** $\to$ **ARF** $\dashv$ **MDM2** $\dashv$ **p53** $\to$ **apoptoos**
 
 ---
+
 Valik p53 märklaud geene. Kokku on ~120 geeni leitud.
 
 Geeni funktsionaalne klass | Geen | Funktsioon
@@ -296,12 +320,14 @@ apoptoos | BAX | mt poorivalk
 anti-angiogenees | TSP-1 (trombospondiin) | *ECM* valk
 
 ---
+
 ## p53 anti-neoplastiline toime on peamiselt tingitud apoptoosi induktsioonist
 
 - p53 aktiveerib näiteks CD95 (Fas/APO1) ja mitmete Bcl-2 perekonna pro-apoptootiliste geenide transkriptsiooni.
 - p53-indutseeritud apoptoos kulgeb siiski peamiselt läbi mitokondriaalse tsütokroom c vahendatud kaspaaside aktivatsiooni.
 
 ---&twocol
+
 ## INK4a/ARF mutations accelerate lymphomagenesis and promote chemoresistance by disabling p53
 
 ***=left
@@ -319,9 +345,11 @@ p53 või/ja ARF knockout pärsib apoptoosi.
 [Pildid:Genes Dev. Oct 15, 1999; 13(20): 2670–2677](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC317110/)
 
 --- .segue .dark .nobackground
+
 ## Apoptoos
 
 ---
+
 ## Apoptoosi mehhanismid: sisemine ja ligand vahendatud
 
 - Vastusena apoptootilistele stiimulitele aktiveeritakse kõigepealt initsiaator kaspaasid(kaspaas-2,-8,-9,-10) mis aktiveerivad omakorda effektor kaspaasid (kaspaas-3 või -7).
@@ -331,15 +359,17 @@ p53 või/ja ARF knockout pärsib apoptoosi.
 
 <img src="http://web.stanford.edu/class/humbio153/ImmuneEvasion/images/clip_image019.png" style="width:260px">
 
-----
+---
+
 ## Kaks apoptoosi rada
 
-![twopathways](assets/fig/two-pathways.png)
+![twopathways](assets/img/two-pathways.png)
 
 
 [Allikas:BH3-only proteins in apoptosis at a glance](http://jcs.biologists.org/content/125/5/1081/F1.poster.jpg)
 
 ---
+
 ## *B cell lymphoma 2 (BCL-2)* perekonna valgud
 
 - Pro- ja anti-apoptootiliste BCL-2 perekonna valkude tasakaal määrab mitokondriaalse raja aktiveerumise.
@@ -349,9 +379,10 @@ p53 või/ja ARF knockout pärsib apoptoosi.
 - Anti-apoptootilised valgud toimivad nii, et nad sekvesteerivad pro-apoptootilised valgud.
 
 
-<img src="assets/fig/Bcl2familyvalues.png" style="width:300px">
+<img src="assets/img/Bcl2familyvalues.png" style="width:300px">
 
 ---&twocol
+
 ## Apoptoosis osalevad valgud on vähis dereguleeritud
 
 ***=left
@@ -383,13 +414,15 @@ BMF | progressiivne B-lümfoidne hüperplaasia | Burkitti lümfoom | $\downarrow
 BAD | ~norm; vähesel määral esineb difuusset suure B-rakulist lümfoomi | käärsoole adenokartsinoom | *loss-of-function* mutatsioon (BH3 domään) 
 
 ---
+
 ## BH3 valkude regulatsioon
 
-![bh3](assets/fig/BH3regulatsioon.png)
+![bh3](assets/img/BH3regulatsioon.png)
 
 [Allikas:BH3-only proteins in apoptosis at a glance](http://jcs.biologists.org/content/125/5/1081/F1.poster.jpg)
 
 ---
+
 ## Onkogeensed kinaasid reguleerivad MCL-1, BIM ja PUMA
 
 ![tki](http://ars.els-cdn.com/content/image/1-s2.0-S0962892413001177-gr2.jpg)
@@ -397,6 +430,7 @@ BAD | ~norm; vähesel määral esineb difuusset suure B-rakulist lümfoomi | kä
 [Allikas:Evading apoptosis in cancer](http://www.sciencedirect.com/science/article/pii/S0962892413001177)
 
 ---
+
 ## Erinevad stiimulid indutseerivad erineva *BH3-only* repertuaari
 
 stiimul | BH3 valk
@@ -412,6 +446,7 @@ ionomütsiin | BIM
 forbool estrid (PMA) | PUMA
 
 --- &twocol
+
 ## Apaf-1 vaigistamine melanoomis annab sellele kemoresistentsuse
 
 ***=left
@@ -425,27 +460,37 @@ forbool estrid (PMA) | PUMA
 
 <img src="http://www.nature.com/nature/journal/v409/n6817/images/409207aa.2.jpg" style="width:300px">
 
-<p style="font-size=10pt">Pilt: Apaf-1 loss in metastatic melanoma. doi:10.1038/35051606</p>
+<footer class="source">Pilt: Apaf-1 loss in metastatic melanoma. doi:10.1038/35051606</footer>
 
 ---
 
 > Vähirakud kasutavad erinevaid mehhanisme, et vaigistada apoptoosi masinavärk ja kontrollimatult paljuneda. Selleks kasutavad nad Akt/PKB raja aktivatsiooni, anti-apoptootiliste Bcl2 valkude üle-ekspressiooni, p53 inaktivatsiooni, pro-apoptootiliste geenide promootorite hüpermetüleerimist, tsütokroom c vabanemise pärssimist, kaspaaside inhibitsiooni. 
 
----
-## Lingid eelmistele loengutele
+--- .segue .dark .nobackground
 
-1. [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
+## Lingid teistele loengutele
 
-2. [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+--- &twocol 
 
-3. [Onkoviirused](http://tpall.github.io/Onkoviirused)
+***=left 
 
-4. [Onkogeenid](http://tpall.github.io/Onkogeenid)
+- [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
+- [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+- [Onkoviirused](http://tpall.github.io/Onkoviirused)
+- [Onkogeenid](http://tpall.github.io/Onkogeenid)
+- [Retseptorid](http://tpall.github.io/Retseptorid)
+- [Signaalirajad](http://tpall.github.io/Signaalirajad)
+- [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
+- [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
 
-5. [Retseptorid](http://tpall.github.io/Retseptorid)
 
-6. [Signaalirajad](http://tpall.github.io/Signaalirajad)
+***=right 
 
-7. [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
-
-8. [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
+- [p53 ja apoptoos](http://tpall.github.io/p53-ja-apoptoos)
+- [Immortalisatsioon](http://tpall.github.io/Immortalisatsioon)
+- [Tumorigenees](http://tpall.github.io/Tumorigenees)
+- [Genoomiterviklikkus](http://tpall.github.io/Genoomiterviklikkus)
+- [Mikrokeskkond](http://tpall.github.io/Mikrokeskkond)
+- [Metastaasid](http://tpall.github.io/Metastaas)
+- [Immuunsus](http://tpall.github.io/Immuunsus)
+- [Vähiravimid](http://tpall.github.io/Vahiravim)
