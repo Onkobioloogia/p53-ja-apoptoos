@@ -166,27 +166,7 @@ Epstein-Barr | | EBNA-1 | LMP-1
 
 ## p53 mutatsioonisagedused kasvajates
 
-
-```
-## Warning in file(file, "rt"): cannot open file 'PrevalenceIARC TP53
-## Database, R17.txt': No such file or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'prev' not found
-```
-
-```
-## Error in sum$Topography: object of type 'builtin' is not subsettable
-```
-
-```
-## Error: ggplot2 doesn't know how to deal with data of class function
-```
+![plot of chunk prevalence](assets/fig/prevalence-1.png) 
 <footer class="source">IARC TP53 Database R17, November 2013. Petitjean A, Mathe E, Kato S, Ishioka C, Tavtigian SV, Hainaut P, Olivier M. Impact of mutant p53 functional properties on TP53 mutation patterns and tumor phenotype: lessons from recent developments in the IARC TP53 database.Hum Mutat. 2007 Jun;28(6):622-9.</footer>
 
 --- &twocol 

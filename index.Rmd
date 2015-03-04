@@ -67,8 +67,9 @@ background-color: #CBE7A5; /* ; ; */
 
 ```{r, include=FALSE}
 ## knitr configuration: http://yihui.name/knitr/options#chunk_options
+library(knitr)
 opts_chunk$set(comment = "", error= TRUE, warning = FALSE, message = FALSE,
-               tidy = FALSE, cache = F, echo = FALSE)
+               tidy = FALSE, cache = FALSE, echo = FALSE)
 ```
 
 --- .segue .dark .nobackground
