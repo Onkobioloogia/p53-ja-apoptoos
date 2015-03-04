@@ -174,7 +174,7 @@ Epstein-Barr | | EBNA-1 | LMP-1
 library(plyr);library(dplyr)
 library(magrittr)
 library(ggplot2)
-prev <- read.delim("~/Dropbox/Onkobioloogia/p53-ja-apoptoos/PrevalenceIARC TP53 Database, R17.txt")
+prev <- read.delim("PrevalenceIARC TP53 Database, R17.txt")
 sum <- prev %>% ddply(.,"Topography", summarise, samples=sum(Sample_analyzed), mutated=sum(Sample_mutated), percent=(mutated/samples)*100) %>%
   filter(samples>500)
 lab <- lapply(strwrap(sum$Topography,50,simplify=F),paste,collapse="\n")
