@@ -221,7 +221,9 @@ sum %>% qplot(x=reorder(Topography,percent), y=percent, data=., geom='bar',stat=
 - Kui rakus oleks mutantse p53 alleeli ekspressioon täielikult inaktiveeritud, siis säiliks ikkagi p53 *wild-type* funktsioon.
 - Kasvajates p53 muteerunud siiski (kuni 50%) ja läbinud LOH sündmuse.
 
-![homotetramer](http://www.cancerwatch.org/databaseimages/p53str.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/3KMD_p53_DNABindingDomian.png/1280px-3KMD_p53_DNABindingDomian.png" style="width:250px">
+
+<footer class="source">"3KMD p53 DNABindingDomian" by Richard Wheeler (Zephyris) - Own work. Licensed under CC BY-SA 3.0 via Commons </footer>
 
 ---
 
@@ -338,6 +340,13 @@ apoptoos | BAX | mt poorivalk
 anti-angiogenees | TSP-1 (trombospondiin) | *ECM* valk
 
 ---
+## Onkogeenne stress käivitab apoptoosi
+
+![oncostress](http://www.nature.com/nrm/journal/v5/n10/images/nrm1491-f3.jpg)
+
+<footer class="source">The p53 transcription factor activates target genes that promote cell-cycle arrest or apoptosis in response to oncogene activation.</footer>
+
+---
 
 ## p53 anti-neoplastiline toime on peamiselt tingitud apoptoosi induktsioonist
 
@@ -350,7 +359,9 @@ anti-angiogenees | TSP-1 (trombospondiin) | *ECM* valk
 
 ***=left
 
-E$\mu$–myc transgeensed hiired ekspresseerivad konstitutiivselt c-Myc-i B-rakkudes ja neil areneb välja B-raku lümfoom ja leukeemia. p53 või/ja ARF knockout selles mudelis kiirendab oluliselt lümfoomi teket (joonisel: c,d,e).
+- E$\mu$–myc hiired ekspresseerivad c-Myc B-rakkudes ja neil areneb välja B-raku lümfoom ja leukeemia
+- Ainult c-myci ekspressioon tasakaalustatakse suuresti apoptoosi indutseerimise läbi
+- p53 või/ja - ARF knockout selles mudelis kiirendab oluliselt lümfoomi teket (joonisel: c,d,e).
 
 <img src="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC317110/bin/gad.3f1.jpg" style="width:200px">
 
@@ -370,10 +381,10 @@ p53 või/ja ARF knockout pärsib apoptoosi.
 
 ## Apoptoosi mehhanismid: sisemine ja ligand vahendatud
 
+- Rakkude sisemine (*intrinsic*) mehhanism käib üle **tsütokroom c vabanemise mitokondrist** ja indutseeritud mehhanism käib läbi **surmaretseptorite** või **TNF ja TRAIL**-i raja.
 - Vastusena apoptootilistele stiimulitele aktiveeritakse kõigepealt initsiaator kaspaasid(kaspaas-2,-8,-9,-10) mis aktiveerivad omakorda effektor kaspaasid (kaspaas-3 või -7).
 - Kaspaaside kaskaadi aktiveerimine käivitab raku valkude proteolüütilise lagundamise ja rakusurma.
-- Selliselt surnud rakud fragmenteeruvad vesiikuliteks ja fagotsüteeritakse teiste rakkude poolt.
-- Rakkude sisemine (*intrinsic*) mehhanism käib üle **tsütokroom c vabanemise mitokondrist** ja indutseeritud mehhanism käib läbi **surmaretseptorite** või **TNF ja TRAIL**-i raja.
+
 
 <img src="http://web.stanford.edu/class/humbio153/ImmuneEvasion/images/clip_image019.png" style="width:260px">
 
