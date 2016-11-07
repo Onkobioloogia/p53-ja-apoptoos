@@ -171,7 +171,7 @@ Epstein-Barr | | EBNA-1 | LMP-1
 
 ## p53 mutatsioonisagedused kasvajates
 
-```{r prevalence, echo=FALSE, plotly = TRUE}
+```{r prevalence}
 library(plyr); library(dplyr)
 library(magrittr)
 library(ggplot2)
