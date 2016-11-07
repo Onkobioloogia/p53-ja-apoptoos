@@ -172,19 +172,29 @@ Epstein-Barr | | EBNA-1 | LMP-1
 ## p53 mutatsioonisagedused kasvajates
 
 ```{r prevalence, echo=FALSE, results='asis'}
-library(plyr);library(dplyr)
+library(plyr); library(dplyr)
 library(magrittr)
 library(ggplot2)
-prev <- read.delim("PrevalenceIARCTP53DatabaseR17.txt")
-sum <- prev %>% ddply(.,"Topography", summarise, samples=sum(Sample_analyzed), mutated=sum(Sample_mutated), percent=(mutated/samples)*100) %>%
-  filter(samples>500)
-lab <- lapply(strwrap(sum$Topography,50,simplify=F),paste,collapse="\n")
-sum %>% qplot(x=reorder(Topography,percent), y=percent, data=., geom='bar',stat="identity") + 
-  labs(y="% mutated",x=NULL) +
-  scale_x_discrete(labels=lab) +
-  coord_flip() + theme(axis.text=element_text(colour = "black"))
+# prev <- read.delim("PrevalenceIARCTP53DatabaseR17.txt")
+prev2 <- read.delim("assets/prevalenceSomaticIARC TP53 DatabaseR18.txt")
+sum <- prev2 %>% 
+  ddply(., "Topography", summarise, 
+        samples = sum(Sample_analyzed), 
+        mutated = sum(Sample_mutated), 
+        percent = (mutated/samples)*100) %>%
+  filter(samples > 500)
+lab <- lapply(strwrap(sum$Topography, 50, simplify = F), paste, collapse = "\n")
+sum %>% 
+  ggplot(aes(reorder(Topography, percent), percent)) +
+  geom_bar(stat = 'identity') +
+  labs(y = "% mutated", x = NULL) +
+  scale_x_discrete(labels = lab) +
+  coord_flip() + 
+  theme(axis.text = element_text(colour = "black"))
 ```
-<footer class="source">IARC TP53 Database R17, November 2013. Petitjean A, Mathe E, Kato S, Ishioka C, Tavtigian SV, Hainaut P, Olivier M. Impact of mutant p53 functional properties on TP53 mutation patterns and tumor phenotype: lessons from recent developments in the IARC TP53 database.Hum Mutat. 2007 Jun;28(6):622-9.</footer>
+<footer class="source">IARC TP53 Database R18, April 2016. Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil J, Olivier M.
+TP53 Variations in Human Cancers: New Lessons from the IARC TP53 Database and Genomics Data.
+Hum Mutat. 2016 Sep;37(9):865-76.</footer>
 
 --- &twocol 
 

@@ -166,8 +166,10 @@ Epstein-Barr | | EBNA-1 | LMP-1
 
 ## p53 mutatsioonisagedused kasvajates
 
-![plot of chunk prevalence](assets/fig/prevalence-1.png) 
-<footer class="source">IARC TP53 Database R17, November 2013. Petitjean A, Mathe E, Kato S, Ishioka C, Tavtigian SV, Hainaut P, Olivier M. Impact of mutant p53 functional properties on TP53 mutation patterns and tumor phenotype: lessons from recent developments in the IARC TP53 database.Hum Mutat. 2007 Jun;28(6):622-9.</footer>
+![plot of chunk prevalence](assets/fig/prevalence-1.png)
+<footer class="source">IARC TP53 Database R18, April 2016. Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil J, Olivier M.
+TP53 Variations in Human Cancers: New Lessons from the IARC TP53 Database and Genomics Data.
+Hum Mutat. 2016 Sep;37(9):865-76.</footer>
 
 --- &twocol 
 
