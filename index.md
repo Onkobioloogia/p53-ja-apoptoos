@@ -166,25 +166,7 @@ Epstein-Barr | | EBNA-1 | LMP-1
 
 ## p53 mutatsioonisagedused kasvajates
 
-![plot of chunk prevalence](assets/fig/prevalence-1.png)
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
-
-```
-## Warning in normalizePath(f2): path[1]="./webshotc0029c05e40.png": No such
-## file or directory
-```
-
-```
-## Warning in file(con, "rb"): cannot open file './webshotc0029c05e40.png': No
-## such file or directory
-```
-
-```
-## Error in file(con, "rb"): cannot open the connection
-```
+![plot of chunk prevalence](assets/fig/prevalence-1.png)![plot of chunk prevalence](assets/fig/prevalence-2.png)
 <footer class="source">IARC TP53 Database R18, April 2016. Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil J, Olivier M.
 TP53 Variations in Human Cancers: New Lessons from the IARC TP53 Database and Genomics Data.
 Hum Mutat. 2016 Sep;37(9):865-76.</footer>

@@ -176,7 +176,6 @@ library(plyr); library(dplyr)
 library(magrittr)
 library(ggplot2)
 library(plotly)
-library(webshot)
 # prev <- read.delim("PrevalenceIARCTP53DatabaseR17.txt")
 prev2 <- read.delim("assets/prevalenceSomaticIARC TP53 DatabaseR18.txt")
 sum <- prev2 %>% 
