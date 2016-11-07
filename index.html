@@ -331,30 +331,7 @@ background-color: #CBE7A5; /* ; ; */
     <h2>p53 mutatsioonisagedused kasvajates</h2>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">library(plyr); library(dplyr)
-library(magrittr)
-library(ggplot2)
-library(plotly)
-# prev &lt;- read.delim(&quot;PrevalenceIARCTP53DatabaseR17.txt&quot;)
-prev2 &lt;- read.delim(&quot;assets/prevalenceSomaticIARC TP53 DatabaseR18.txt&quot;)
-sum &lt;- prev2 %&gt;% 
-  ddply(., &quot;Topography&quot;, summarise, 
-        samples = sum(Sample_analyzed), 
-        mutated = sum(Sample_mutated), 
-        percent = (mutated/samples)*100) %&gt;%
-  filter(samples &gt; 500)
-lab &lt;- lapply(strwrap(sum$Topography, 50, simplify = F), paste, collapse = &quot;\n&quot;)
-gg &lt;- sum %&gt;% 
-  ggplot(aes(reorder(Topography, percent), percent)) +
-  geom_bar(stat = &#39;identity&#39;) +
-  labs(y = &quot;% mutated&quot;, x = NULL) +
-  scale_x_discrete(labels = lab) +
-  coord_flip() + 
-  theme(axis.text = element_text(colour = &quot;black&quot;))
-ggplotly(gg, session = &quot;knitr&quot;)
-</code></pre>
-
-<p><img src="assets/fig/prevalence-1.png" alt="plot of chunk prevalence">
+    <p><img src="assets/fig/prevalence-1.png" alt="plot of chunk prevalence">
 <footer class="source">IARC TP53 Database R18, April 2016. Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil J, Olivier M.
 TP53 Variations in Human Cancers: New Lessons from the IARC TP53 Database and Genomics Data.
 Hum Mutat. 2016 Sep;37(9):865-76.</footer></p>

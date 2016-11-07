@@ -166,31 +166,6 @@ Epstein-Barr | | EBNA-1 | LMP-1
 
 ## p53 mutatsioonisagedused kasvajates
 
-
-```r
-library(plyr); library(dplyr)
-library(magrittr)
-library(ggplot2)
-library(plotly)
-# prev <- read.delim("PrevalenceIARCTP53DatabaseR17.txt")
-prev2 <- read.delim("assets/prevalenceSomaticIARC TP53 DatabaseR18.txt")
-sum <- prev2 %>% 
-  ddply(., "Topography", summarise, 
-        samples = sum(Sample_analyzed), 
-        mutated = sum(Sample_mutated), 
-        percent = (mutated/samples)*100) %>%
-  filter(samples > 500)
-lab <- lapply(strwrap(sum$Topography, 50, simplify = F), paste, collapse = "\n")
-gg <- sum %>% 
-  ggplot(aes(reorder(Topography, percent), percent)) +
-  geom_bar(stat = 'identity') +
-  labs(y = "% mutated", x = NULL) +
-  scale_x_discrete(labels = lab) +
-  coord_flip() + 
-  theme(axis.text = element_text(colour = "black"))
-ggplotly(gg, session = "knitr")
-```
-
 ![plot of chunk prevalence](assets/fig/prevalence-1.png)
 <footer class="source">IARC TP53 Database R18, April 2016. Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil J, Olivier M.
 TP53 Variations in Human Cancers: New Lessons from the IARC TP53 Database and Genomics Data.
