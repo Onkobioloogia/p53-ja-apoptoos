@@ -160,7 +160,7 @@ Epstein-Barr | | EBNA-1 | LMP-1
 
 ---
 
-## p53 on klassikaline "*two-hit*" tuumorsupressor
+## p53 on klassikaline '*two-hit*' tuumorsupressor
 
 - p53 ilmus jäädavalt radarile kui käärsoolevähist otsiti oletatavat tuumorsupressorgeeni kromosoomi 17p lookusest ([Baker et al. 1989](https://www.msu.edu/~luckie/paris/290B/Vogelstein.pdf)).
 - Enamuses käärsoolevähkides olid p53 geenis aminohappe asendusi põhjustavad missens mutatsioonid (C $\rightarrow$ T).
