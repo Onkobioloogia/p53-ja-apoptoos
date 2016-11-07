@@ -167,6 +167,10 @@ Epstein-Barr | | EBNA-1 | LMP-1
 ## p53 mutatsioonisagedused kasvajates
 
 ![plot of chunk prevalence](assets/fig/prevalence-1.png)
+
+```
+## Error in loadNamespace(name): there is no package called 'webshot'
+```
 <footer class="source">IARC TP53 Database R18, April 2016. Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil J, Olivier M.
 TP53 Variations in Human Cancers: New Lessons from the IARC TP53 Database and Genomics Data.
 Hum Mutat. 2016 Sep;37(9):865-76.</footer>
