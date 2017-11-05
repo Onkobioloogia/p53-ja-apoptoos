@@ -72,7 +72,7 @@ class: inverse, middle, center
 
 ## p53 avastamine
 
-- 1979. aastal esitasid kuus sõltumatut uurimisrühma andmed, et nad on avastanud 53 kDa valgu inimese ja hiirte rakkudest ([DeLeo et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC383613/), [Kress et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC353470/), [Lane & Crawford 1979](http://www.nature.com/nature/journal/v278/n5701/abs/278261a0.html), [Linzer & Levine 1979](http://www.sciencedirect.com/science/article/pii/0092867479902939), [Melero et al. 1979](http://www.sciencedirect.com/science/article/pii/0042682279902502), [Smith et al. 1979)](http://www.sciencedirect.com/science/article/pii/0092867479900539). 
+- Aastal 1979. esitasid kuus sõltumatut uurimisrühma andmed, et nad on avastanud 53 kDa valgu inimese ja hiirte rakkudest ([DeLeo et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC383613/), [Kress et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC353470/), [Lane & Crawford 1979](http://www.nature.com/nature/journal/v278/n5701/abs/278261a0.html), [Linzer & Levine 1979](http://www.sciencedirect.com/science/article/pii/0092867479902939), [Melero et al. 1979](http://www.sciencedirect.com/science/article/pii/0042682279902502), [Smith et al. 1979)](http://www.sciencedirect.com/science/article/pii/0092867479900539). 
 - Viiel juhul avastati see valk sellepärast, et see immuunosadestus koos SV40 viirusvalguga suur T-antigeen (*large T-antigen*). 
 - Sama valk avastati ka pooljuhuslikult kui keemiliselt transformeeritud sarkoomirakkude vastu genereeritud antiseerum tundis ära 53 kDa valgu transformeerunud rakkudest, kuid mitte normaalsetes rakkudes.
 
@@ -116,8 +116,11 @@ knitr::include_graphics("https://images.nature.com/lw926/nature-assets/srep/2013
 ## p53 on klassikaline '*two-hit*' tuumorsupressor
 
 - p53 ilmus jäädavalt radarile kui käärsoolevähist otsiti oletatavat tuumorsupressorgeeni kromosoomi 17p lookusest ([Baker et al. 1989](https://www.msu.edu/~luckie/paris/290B/Vogelstein.pdf)).
+
 - Enamuses käärsoolevähkides olid p53 geenis aminohappe asendusi põhjustavad missens mutatsioonid (C rightarrow T).
-- Kõigil juhtudel oli p53 geeni mõlemad koopiad muteerunud: üks koopia sisaldas mutatsioone ja teine koopia oli täielikult kaduma läinud (LOH). 
+
+- Kõigil juhtudel oli p53 geeni mõlemad koopiad muteerunud: üks koopia sisaldas mutatsioone ja teine koopia oli täielikult kaduma läinud (LOH).
+
 - p53 oli muteerunud väga erinevates vähkides ([Nigro et al. 1989](http://www.nature.com/nature/journal/v342/n6250/abs/342705a0.html))
 
 ---
@@ -130,7 +133,7 @@ library(magrittr)
 library(ggplot2)
 # library(plotly)
 # prev <- read.delim("PrevalenceIARCTP53DatabaseR17.txt")
-prev2 <- read.delim("assets/prevalenceSomaticIARC TP53 DatabaseR18.txt")
+prev2 <- read.delim("data/prevalenceSomaticIARC TP53 DatabaseR18.txt")
 sum <- prev2 %>% 
   ddply(., "Topography", summarise, 
         samples = sum(Sample_analyzed), 
@@ -166,7 +169,7 @@ Hum Mutat. 2016 Sep;37(9):865-76.</footer>
 .pull-right[
 
 ```{r}
-knitr::include_graphics("assets/img/tsg-mutation-spectrum.png")
+knitr::include_graphics("figures/tsg-mutation-spectrum.png")
 ```
 ]
 
@@ -177,7 +180,7 @@ knitr::include_graphics("assets/img/tsg-mutation-spectrum.png")
 ## p53 mutatsioonid asuvad peamiselt DNA sidumise domäänis
 
 ```{r}
-knitr::include_graphics("assets/img/TP53-mutations.png")
+knitr::include_graphics("figures/TP53-mutations.png")
 ```
 
 ---
@@ -205,8 +208,8 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/4/
 - Selline induktsioon ei ole tingitud p53 mRNA taseme tõusust.
 - p53 valgu tase tõuseb rakkudes täielikult tingituna post-translatsioonilistest modifikatsioonidest mis tõstavad selle normaalselt labiilse valgu stabiilsust.
 
-```{r, out.width=400}
-knitr::include_graphics("assets/img/p53hela.jpg")
+```{r, out.width='50%'}
+knitr::include_graphics("figures/p53hela.jpg")
 ```
 
 ---
@@ -239,7 +242,7 @@ kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 - p21 vahendab p53 rakutsüklit inhibeerivat efekti, samas p21 inhibeerib p53-sõltuvat apoptoosi.
 
 ```{r}
-knitr::include_graphics("assets/img/p21inhibitsapoptosis.png")
+knitr::include_graphics("figures/p21inhibitsapoptosis.png")
 ```
 
 ---
@@ -259,20 +262,19 @@ knitr::include_graphics("http://www-bcf.usc.edu/~forsburg/images/Image10.jpg")
 
 ---
 
-## MDM2
+## MDM2 ubikvitiinligaas
 
 .pull-left[
 
 ```{r}
-knitr::include_graphics("assets/img/p53MDM2.jpg")
+knitr::include_graphics("figures/p53MDM2.jpg")
 ```
 ]
 
 
 .pull-right[
 
-- MDM2 avastati kui *double-minute* kromosoomid hiire sarkoomirakkudes (_**mo**use **d**ouble **m**inutes_).
-- **Mdm2 on E3 ubikvitiin ligaas** mis tunneb ära p53 amino-terminaalse trans-aktivatsiooni domääni.
+- **Mdm2 on E3 ubikvitiinligaas** mis tunneb ära p53 amino-terminaalse trans-aktivatsiooni domääni.
 - Mdm2 on p53 märklaudgeen.
 - MDM2 ekspressiooni indutseerib ka mitogeenne signalisatsioon läbi MAPK raja (AP-1 TF).
 - Samuti stabiliseerib MDM2 Akt/PKB, mille poolt fosfoforüleerimine blokeerib MDM2 auto-ubikvitineerimise.]
@@ -284,7 +286,7 @@ knitr::include_graphics("assets/img/p53MDM2.jpg")
 
 ## ARF
 
-- p19^ARF (hiir) või p14^ARF (inimene) valku kodeerib kompaktne geneetiline lookus kus asub kokku kolm tuumorsupressorgeeni: p16^INK4A, p15^INK4B ja p19/p14^ARF .
+- p19<sup>ARF</sup> (hiir) või p14<sup>ARF</sup> (inimene) valku kodeerib kompaktne geneetiline lookus kus asub kokku kolm tuumorsupressorgeeni: p16<sup>INK4A</sup>, p15<sup>INK4B</sup> ja p19/p14<sup>ARF</sup>.
 - ARF geeni promootor asub 13 kB ülevalpool p16^INK4A promootorist. ARF - _**a**lternative **r**eading **f**rame_.
 - **ARF seob MDM2** ja inhibeerib selle korjates ta tuumakesse.
 - ARF ekspressiooni aktiveerivad c-MYC, RAS ja ka adenoviiruse E1A.
@@ -303,11 +305,15 @@ knitr::include_graphics("http://www.hhmi.org/sites/default/files/Our%20Scientist
 - Kõrge E2F1 aktiveerib mitmete apoptootiliste geenide transkriptsiooni: kaspaasid (3,7,8,9), pro-apoptootilised Bcl2 valgud (Bim, Noxa, PUMA), Apaf-1 ja p73 (p53 homoloog).
 - E2F1/2 reguleerib ka p53-sõltuvat apoptoosi indutseerides p14^ARF .
 
-RB-sõltuv apoptoosi rada: **pRb** dashv$ **E2F** $\to$ **ARF** $\dashv$ **MDM2** $\dashv$ **p53** $\to **apoptoos**
+RB-sõltuv apoptoosi rada: 
+
+  **pRb** $\dashv$ **E2F** $\to$ **ARF** $\dashv$ **MDM2** $\dashv$ **p53** $\to$ **apoptoos**
 
 ---
 
-Valik p53 märklaud geene. Kokku on ~120 geeni leitud.
+## Valik p53 märklaudgeene 
+
+Kokku on ~120 geeni leitud.
 
 ```{r}
 tab <- readr::read_delim("Geeni funktsionaalne klass | Geen | Funktsioon
@@ -317,23 +323,23 @@ rakutsükli inhibiitorid | p21^CIP1 | CDK inhibiitor
   | 14-3-3sigma | tsükliin B-CDK1 inhibiitor
   | Reprimo | G2 arrest
 DNA reparatsioon  | p53R2 | DNA biosüntees
- | XPE/DDB2, XPG, XPC | NER (*nucleotide excision repair*)
- | GADD45 | NER (*nucleotide excision repair*)
+ | XPE/DDB2, XPG, XPC | NER (nucleotide excision repair)
+ | GADD45 | NER (nucleotide excision repair)
  | DNA pol. kappa | DNA polümeraas
 apoptoos | BAX | mt poorivalk 
  | PUMA, NOXA | BH3 mt poorivalk
  | APAF1 | kaspaas-9 aktivaator
  | NF-kappaB | TF
  | Fas/APO1 | surmaretseptor
-anti-angiogenees | TSP-1 (trombospondiin) | *ECM* valk", delim = "|")
+anti-angiogenees | TSP-1 (trombospondiin) | ECM valk", delim = "|")
 tab <- knitr::kable(tab, format = 'html')
-kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
+kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 ```
 
 ---
 ## Onkogeenne stress käivitab apoptoosi
 
-```{r}
+```{r, out.width='70%'}
 knitr::include_graphics("http://www.nature.com/nrm/journal/v5/n10/images/nrm1491-f3.jpg")
 ```
 
@@ -344,6 +350,7 @@ knitr::include_graphics("http://www.nature.com/nrm/journal/v5/n10/images/nrm1491
 ## p53 anti-neoplastiline toime on peamiselt tingitud apoptoosi induktsioonist
 
 - p53 aktiveerib näiteks CD95 (Fas/APO1) ja mitmete Bcl-2 perekonna pro-apoptootiliste geenide transkriptsiooni.
+
 - p53-indutseeritud apoptoos kulgeb siiski peamiselt läbi mitokondriaalse tsütokroom c vahendatud kaspaaside aktivatsiooni.
 
 ---
@@ -356,18 +363,19 @@ knitr::include_graphics("http://www.nature.com/nrm/journal/v5/n10/images/nrm1491
 - Ainult c-myci ekspressioon tasakaalustatakse suuresti apoptoosi indutseerimise läbi
 - p53 või/ja - ARF knockout selles mudelis kiirendab oluliselt lümfoomi teket (joonisel: c,d,e).
 
-```{r, out.width=200}
+```{r, out.width='30%'}
 knitr::include_graphics("http://www.ncbi.nlm.nih.gov/pmc/articles/PMC317110/bin/gad.3f1.jpg")
 ```
 
 ]
+
 .pull-right[
 
-p53 või/ja ARF knockout pärsib apoptoosi.
-
-```{r, out.width=200}
+```{r, out.width='50%', fig.cap='p53 või/ja ARF knockout pärsib apoptoosi.'}
 knitr::include_graphics("http://www.ncbi.nlm.nih.gov/pmc/articles/PMC317110/bin/gad.3f3.jpg")
 ```
+
+]
 
 [Pildid:Genes Dev. Oct 15, 1999; 13(20): 2670–2677](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC317110/)
 
@@ -394,7 +402,7 @@ knitr::include_graphics("http://web.stanford.edu/class/humbio153/ImmuneEvasion/i
 ## Kaks apoptoosi rada
 
 ```{r}
-knitr::include_graphics("assets/img/two-pathways.png")
+knitr::include_graphics("figures/two-pathways.png")
 ```
 
 
@@ -402,7 +410,7 @@ knitr::include_graphics("assets/img/two-pathways.png")
 
 ---
 
-## *B cell lymphoma 2 (BCL-2)* perekonna valgud
+## B cell lymphoma 2 (BCL-2) perekonna valgud
 
 - Pro- ja anti-apoptootiliste BCL-2 perekonna valkude tasakaal määrab mitokondriaalse raja aktiveerumise.
 - BCL-2 valke klassifitseeritakse valgus olevate BH domäänide (*BCL-2 homology*) järgi. 
@@ -411,10 +419,9 @@ knitr::include_graphics("assets/img/two-pathways.png")
 - Anti-apoptootilised valgud toimivad nii, et nad sekvesteerivad pro-apoptootilised valgud.
 
 
-```{r, out.width=300}
-knitr::include_graphics("assets/img/Bcl2familyvalues.png")
+```{r, out.width='30%'}
+knitr::include_graphics("figures/Bcl2familyvalues.png")
 ```
-
 
 
 ## Apoptoosis osalevad valgud on vähis dereguleeritud
@@ -437,6 +444,8 @@ knitr::include_graphics("http://ars.els-cdn.com/content/image/1-s2.0-S0962892413
 
 ---
 
+## Apoptoosi regulaatorid vähis
+
 ```{r}
 tab <- readr::read_delim("BH3 geen | KO hiire fenotüüp | inimese vähk | BH3 geeni muutused
 BIM | lümfoid ja müeloid hüperplaasia | mantelraku lümfoom, Burkitti lümfoom | homosügootne deletsioon, promootori hüpermetülatsioon, promootori mutatsioon
@@ -450,7 +459,7 @@ BMF | progressiivne B-lümfoidne hüperplaasia | Burkitti lümfoom | downarrow e
  | rinna-, kopsu- ja käärsoole kasvaja | lookuse 14q14.15 deletsioon
 BAD | ~norm; vähesel määral esineb difuusset suure B-rakulist lümfoomi | käärsoole adenokartsinoom | *loss-of-function* mutatsioon (BH3 domään)", delim = "|")
 tab <- knitr::kable(tab, format = 'html')
-kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
+kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 ```
 
 ---
@@ -458,7 +467,7 @@ kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
 ## BH3 valkude regulatsioon
 
 ```{r}
-knitr::include_graphics("assets/img/BH3regulatsioon.png")
+knitr::include_graphics("figures/BH3regulatsioon.png")
 ```
 
 [Allikas:BH3-only proteins in apoptosis at a glance](http://jcs.biologists.org/content/125/5/1081/F1.poster.jpg)
@@ -480,16 +489,16 @@ knitr::include_graphics("http://ars.els-cdn.com/content/image/1-s2.0-S0962892413
 ```{r}
 tab <- readr::read_delim("stiimul | BH3 valk
 tsütokiinide nälg | BIM, PUMA, BAD, HRK
-proteasoomi inhibiitorid (*Bortezomib*) | BIM, NOXA, BID, BIK
+proteasoomi inhibiitorid (Bortezomib) | BIM, NOXA, BID, BIK
 DNA kahjustused (kemoteraapia, gamma-kiirgus) | BIM, PUMA, NOXA
-glukokortikoidid (*Dexamethasone*) | BIM, PUMA, BMF
-türosiin kinaasi inhibiitorid (*Gefitinib, Imatinib*) | BIM, BMF, BAD
-HDAC inhibiitorid (*Vorinostat*) | BIM, BID, BMF
+glukokortikoidid (Dexamethasone) | BIM, PUMA, BMF
+türosiin kinaasi inhibiitorid (Gefitinib, Imatinib) | BIM, BMF, BAD
+HDAC inhibiitorid (Vorinostat) | BIM, BID, BMF
 ionomütsiin | BIM
-*Paclitaxel* | BIM
+Paclitaxel | BIM
 forbool estrid (PMA) | PUMA", delim = "|")
 tab <- knitr::kable(tab, format = 'html')
-kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
+kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 ```
 
 
@@ -507,7 +516,7 @@ kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
 ]
 .pull-right[
 
-```{r, out.width=300}
+```{r, out.width='75%'}
 knitr::include_graphics("http://www.nature.com/nature/journal/v409/n6817/images/409207aa.2.jpg")
 ```
 ]
@@ -515,6 +524,7 @@ knitr::include_graphics("http://www.nature.com/nature/journal/v409/n6817/images/
 .footer[Pilt: Apaf-1 loss in metastatic melanoma. doi:10.1038/35051606]
 
 ---
+class: middle
 
 > Vähirakud kasutavad erinevaid mehhanisme, et vaigistada apoptoosi masinavärk ja kontrollimatult paljuneda. Selleks kasutavad nad Akt/PKB raja aktivatsiooni, anti-apoptootiliste Bcl2 valkude üle-ekspressiooni, p53 inaktivatsiooni, pro-apoptootiliste geenide promootorite hüpermetüleerimist, tsütokroom c vabanemise pärssimist, kaspaaside inhibitsiooni. 
 
@@ -524,6 +534,7 @@ class:inverse, middle, center
 # Lingid teistele loengutele
 
 ---
+class:inverse, middle
 
 .pull-left[ 
 
@@ -545,4 +556,7 @@ class:inverse, middle, center
 - [Metastaasid](http://tpall.github.io/Metastaas)
 - [Immuunsus](http://tpall.github.io/Immuunsus)
 - [Vähiravimid](http://tpall.github.io/Vahiravim)
+
 ]
+
+GitHub: [tpall/p53-ja-apoptoos](https://github.com/tpall/p53-ja-apoptoos)
