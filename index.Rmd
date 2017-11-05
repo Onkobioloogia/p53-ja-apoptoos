@@ -11,13 +11,11 @@ output:
     countIncrementalSlides: false
 ---
 
-background-image:url(http://www.pnas.org/content/104/30/12324/F5.large.jpg)
-
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dev = 'svg', fig.align = 'center')
 ```
 
----
+
 class:inverse, middle, center
 
 # Recap
@@ -65,7 +63,12 @@ Rakk on tundlik väliskeskonna signalisatsioonile varases ja keskmises G1 faasis
       - hüpofosfo-RB hüperfosforüleerimine tsükliin E-CDK2 poolt.
 
 ---
-class: inverse, middle, center
+class: middle, center
+
+
+background-image:url(http://www.pnas.org/content/104/30/12324/F5.large.jpg)
+background-size: cover
+
 
 # TP53 tuumorsupressor
 
@@ -73,8 +76,10 @@ class: inverse, middle, center
 
 ## p53 avastamine
 
-- Aastal 1979. esitasid kuus sõltumatut uurimisrühma andmed, et nad on avastanud 53 kDa valgu inimese ja hiirte rakkudest ([DeLeo et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC383613/), [Kress et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC353470/), [Lane & Crawford 1979](http://www.nature.com/nature/journal/v278/n5701/abs/278261a0.html), [Linzer & Levine 1979](http://www.sciencedirect.com/science/article/pii/0092867479902939), [Melero et al. 1979](http://www.sciencedirect.com/science/article/pii/0042682279902502), [Smith et al. 1979)](http://www.sciencedirect.com/science/article/pii/0092867479900539). 
+- Aastal 1979. esitasid kuus sõltumatut uurimisrühma andmed, et nad on avastanud 53 kDa valgu inimese ja hiirte rakkudest ([DeLeo et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC383613/), [Kress et al. 1979](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC353470/), [Lane & Crawford 1979](http://www.nature.com/nature/journal/v278/n5701/abs/278261a0.html), [Linzer & Levine 1979](http://www.sciencedirect.com/science/article/pii/0092867479902939), [Melero et al. 1979](http://www.sciencedirect.com/science/article/pii/0042682279902502), [Smith et al. 1979)](http://www.sciencedirect.com/science/article/pii/0092867479900539).
+
 - Viiel juhul avastati see valk sellepärast, et see immuunosadestus koos SV40 viirusvalguga suur T-antigeen (*large T-antigen*). 
+
 - Sama valk avastati ka pooljuhuslikult kui keemiliselt transformeeritud sarkoomirakkude vastu genereeritud antiseerum tundis ära 53 kDa valgu transformeerunud rakkudest, kuid mitte normaalsetes rakkudes.
 
 ---
@@ -83,17 +88,17 @@ class: inverse, middle, center
 
 ```{r}
 tab <- readr::read_delim("Viirus | Viirusvalk mille märklauaks on Rb | Viirusvalk mille märklauaks on p53 | Viirusvalk mille märklauaks on apoptoos
-SV40 | suur T (*large T antigen*) | suur T | 
+SV40 | suur T (large T antigen) | suur T | 
 adenoviirus | E1A | E1B55K | E1B19K
 HPV | E7 | E6 | 
-polüoomiviirus | suur T | suur T? | keskmine T (*middle T*)
+polüoomiviirus | suur T | suur T? | keskmine T (middle T)
 herpesviirus saimiri | V tsükliin (D tsükliini homoloog) | | v-Bcl-2
 HHV-8 (KSHV) | K tsükliin (D tsükliini homoloog) | LANA-2 | v-Bcl-2, v-FLIP
 HCMV | IE72 | IE86 | vICA, pUL37
 HTLV-I | Tax | | 
 Epstein-Barr | | EBNA-1 | LMP-1", delim = "|")
 tab <- knitr::kable(tab, format = 'html')
-kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
+kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 ```
 
 
@@ -114,41 +119,40 @@ knitr::include_graphics("https://images.nature.com/lw926/nature-assets/srep/2013
 
 ---
 
-## p53 on klassikaline '*two-hit*' tuumorsupressor
+## p53 on klassikaline tuumorsupressor
 
-- p53 ilmus jäädavalt radarile kui käärsoolevähist otsiti oletatavat tuumorsupressorgeeni kromosoomi 17p lookusest ([Baker et al. 1989](https://www.msu.edu/~luckie/paris/290B/Vogelstein.pdf)).
+- p53 kirjeldati ka käärsoolevähi tuumorsupressorgeenina kr 17p lookusest ([Baker et al. 1989](https://www.msu.edu/~luckie/paris/290B/Vogelstein.pdf)).
 
-- Enamuses käärsoolevähkides olid p53 geenis aminohappe asendusi põhjustavad missens mutatsioonid (C rightarrow T).
+- Enamuses käärsoolevähkides olid p53 geenis aminohappe asendusi põhjustavad missens mutatsioonid (C $\rightarrow$ T).
 
 - Kõigil juhtudel oli p53 geeni mõlemad koopiad muteerunud: üks koopia sisaldas mutatsioone ja teine koopia oli täielikult kaduma läinud (LOH).
 
-- p53 oli muteerunud väga erinevates vähkides ([Nigro et al. 1989](http://www.nature.com/nature/journal/v342/n6250/abs/342705a0.html))
+- p53 on muteerunud väga erinevates vähkides ([Nigro et al. 1989](http://www.nature.com/nature/journal/v342/n6250/abs/342705a0.html))
 
 ---
 
 ## p53 mutatsioonisagedused kasvajates
 
 ```{r prevalence, echo=FALSE, out.width='70%'}
-library(plyr); library(dplyr)
-library(magrittr)
+library(dplyr)
 library(ggplot2)
-# library(plotly)
-# prev <- read.delim("PrevalenceIARCTP53DatabaseR17.txt")
+library(stringr)
 prev2 <- read.delim("data/prevalenceSomaticIARC TP53 DatabaseR18.txt")
 sum <- prev2 %>% 
-  ddply(., "Topography", summarise, 
-        samples = sum(Sample_analyzed), 
+  group_by(Topography) %>% 
+  summarise(samples = sum(Sample_analyzed), 
         mutated = sum(Sample_mutated), 
-        percent = (mutated/samples)*100) %>%
+        percent = (mutated/samples) * 100) %>%
   filter(samples > 500)
 lab <- lapply(strwrap(sum$Topography, 50, simplify = F), paste, collapse = "\n")
 sum %>% 
   ggplot(aes(reorder(Topography, percent), percent)) +
   geom_bar(stat = 'identity') +
-  labs(y = "% mutated", x = NULL) +
+  labs(y = "% mutated") +
   scale_x_discrete(labels = lab) +
   coord_flip() + 
-  theme(axis.text = element_text(colour = "black"))
+  theme(axis.text = element_text(colour = "black"),
+        axis.title.y = element_blank())
 ```
 <footer class="source">IARC TP53 Database R18, April 2016. Bouaoun L, Sonkin D, Ardin M, Hollstein M, Byrnes G, Zavadil J, Olivier M.
 TP53 Variations in Human Cancers: New Lessons from the IARC TP53 Database and Genomics Data.
