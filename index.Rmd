@@ -185,8 +185,10 @@ knitr::include_graphics("figures/tsg-mutation-spectrum.png")
 ## p53 mutatsioonid asuvad peamiselt DNA sidumise domäänis
 
 ```{r}
-knitr::include_graphics("figures/TP53-mutations.png")
+knitr::include_graphics("figures/tp53-muts.png")
 ```
+
+.footer[Pilt: http://cancer.sanger.ac.uk/cosmic/gene/analysis?ln=TP53]
 
 ---
 
