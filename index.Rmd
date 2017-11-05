@@ -14,7 +14,7 @@ output:
 background-image:url(http://www.pnas.org/content/104/30/12324/F5.large.jpg)
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, tidy = FALSE, cache = FALSE, dev = 'svg', fig.align = 'center')
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dev = 'svg', fig.align = 'center')
 ```
 
 ---
@@ -27,18 +27,23 @@ class:inverse, middle, center
 ## Rakutsükkel
 
 - Rakutsükkel on järjestikuste sündmuste jada mille käigus rakk duplitseerib kõik oma koostisosad ja jaguneb kaheks tütarrakuks.
-- **Raku rakutsüklisse sisenemist reguleerivad raku väliskeskkonna signaalid**.
+
+- Kõrgematel organismidel reguleerivad raku rakutsüklisse sisenemist raku väliskeskkonna signaalid.
+
 - Mittejagunev rakk on vaikeolekus (*quiescence*) ehk **G0** faasis.
 
 ---
 
 ## Rakku jagunema/mittejagunema mõjutavad signaalid
 
-**Rakk on tundlik väliskeskonna signalisatsioonile varases ja keskmises G1 faasis**.
+Rakk on tundlik väliskeskonna signalisatsioonile varases ja keskmises G1 faasis.
 
 - uparrow türosiin kinaas retseptorid (mitogeenid).
+
 - uparrow G-valk retseptorid (GPCR).
+
 - $\downarrow$ TGF-beta retseptorid, TGF-beta on üks prominentsemaid anti-mitogeene.
+
 - downarrow toitainestaatus.
 
 ---
@@ -46,6 +51,7 @@ class:inverse, middle, center
 ## Tsükliinid ja CDK inhibiitorid
 
 - Kasvufaktorid stimuleerivad kiire tsükliin D taseme tõusu rakus ja CDK4/6 aktivatsiooni.
+
 - Anti-mitogeenne TGF-beta signalisatsioon aktiveerib p15^INK4B tsükliini kinaasi inhibiitori.
 
 ---
@@ -53,20 +59,15 @@ class:inverse, middle, center
 ## RB kontrollib restriktsioonipunkti
 
 - Peale R punkti on rakutsükli regulatsioon automaatne ja ei allu enam mitogeensele-anti-mitogeensele kontrollile.
+
 - R punkti läbimist reguleerib
       - RB hüpofosforüleerimine tsükliin D-CDK4/6 poolt ja
       - hüpofosfo-RB hüperfosforüleerimine tsükliin E-CDK2 poolt.
 
 ---
-
-## Kasvajates on rakutsükkel dereguleeritud
-
-[Kuni 90% vähke sisaldab muutusi rakutsükli regulatsioonis.](http://tpall.github.io/Rakutsyklikontroll/cellcyclecancer.html)
-
----
 class: inverse, middle, center
 
-# TP53
+# TP53 tuumorsupressor
 
 ---
 
