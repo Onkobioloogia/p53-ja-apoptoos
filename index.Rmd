@@ -334,7 +334,7 @@ Kokku on ~120 geeni leitud.
 ```{r}
 tab <- readr::read_delim("Geeni funktsionaalne klass | Geen | Funktsioon
 p53 antagonist | MDM2 | p53 ubikvitiinligaas
-rakutsükli inhibiitorid | p21<sup>CIP1</sup> | CDK inhibiitor
+rakutsükli inhibiitorid | p21CIP1 | CDK inhibiitor
   | Siah-1 | ubikvitiinligaas, beta-kateniini lagundamine
   | 14-3-3sigma | tsükliin B-CDK1 inhibiitor
   | Reprimo | G2 arrest
