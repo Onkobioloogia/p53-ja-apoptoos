@@ -417,6 +417,9 @@ knitr::include_graphics("http://web.stanford.edu/class/humbio153/ImmuneEvasion/i
 
 ## Kaks apoptoosi rada
 
+- Sisemine: mitokonder-tsütokroom c
+- Välimine: surmaretseptorid
+
 ```{r}
 knitr::include_graphics("figures/two-pathways.png")
 ```
