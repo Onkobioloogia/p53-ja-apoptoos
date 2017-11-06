@@ -303,7 +303,7 @@ knitr::include_graphics("figures/p53MDM2.jpg")
 ## ARF
 
 - p19<sup>ARF</sup> (hiir) või p14<sup>ARF</sup> (inimene) valku kodeerib kompaktne geneetiline lookus kus asub kokku kolm tuumorsupressorgeeni: p16<sup>INK4A</sup>, p15<sup>INK4B</sup> ja p19/p14<sup>ARF</sup>.
-- ARF geeni promootor asub 13 kB ülevalpool p16^INK4A promootorist. ARF - _**a**lternative **r**eading **f**rame_.
+- ARF geeni promootor asub 13 kB ülevalpool p16<sup>INK4A</sup> promootorist. ARF - _**a**lternative **r**eading **f**rame_.
 - ARF seob MDM2 ja inhibeerib selle korjates ta tuumakesse
 - ARF ekspressiooni aktiveerivad c-MYC, RAS ja ka adenoviiruse E1A.
 
