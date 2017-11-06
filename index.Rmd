@@ -235,9 +235,11 @@ knitr::include_graphics("figures/p53hela.jpg")
 ## p53 indutseerib stress
 
 - p53 taseme tõus rakkudes viib pöörduva või pöördumatu rakutsükli arrestini (senescence)
-- p53 aktiveerib DNA reparatsiooni raja.
-- p53 blokeerib angiogeneesi (TSP-1uparrow).
+- p53 aktiveerib DNA reparatsiooni raja
+- p53 blokeerib angiogeneesi (TSP-1 $\uparrow$)
 - p53 indutseerib apoptoosi
+
+
 
 ```{r}
 tab <- readr::read_delim("Stiimuli tüüp | stiimul
