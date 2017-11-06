@@ -402,8 +402,8 @@ class:inverse, middle, center
 
 ## Apoptoosi mehhanismid: sisemine ja ligand vahendatud
 
-- Rakkude sisemine (*intrinsic*) mehhanism käib üle **tsütokroom c vabanemise mitokondrist** ja indutseeritud mehhanism käib läbi **surmaretseptorite** või **TNF ja TRAIL**-i raja.
-- Vastusena apoptootilistele stiimulitele aktiveeritakse kõigepealt initsiaator kaspaasid(kaspaas-2,-8,-9,-10) mis aktiveerivad omakorda effektor kaspaasid (kaspaas-3 või -7).
+- Rakkude sisemine apoptoosi mehhanism käib üle **tsütokroom c vabanemise mitokondrist** ja indutseeritud mehhanism käib läbi **surmaretseptorite** või **TNF ja TRAIL** raja.
+- Vastusena apoptootilistele stiimulitele aktiveeritakse kõigepealt initsiaator kaspaasid (kaspaas-2,-8,-9,-10) mis aktiveerivad omakorda effektor kaspaasid (kaspaas-3 või -7).
 - Kaspaaside kaskaadi aktiveerimine käivitab raku valkude proteolüütilise lagundamise ja rakusurma.
 
 
@@ -426,11 +426,11 @@ knitr::include_graphics("figures/two-pathways.png")
 
 ## B cell lymphoma 2 (BCL-2) perekonna valgud
 
-- Pro- ja anti-apoptootiliste BCL-2 perekonna valkude tasakaal määrab mitokondriaalse raja aktiveerumise.
-- BCL-2 valke klassifitseeritakse valgus olevate BH domäänide (*BCL-2 homology*) järgi. 
-- Pro-apoptootilised BCL-2 valkude hulka kuuluvad *BH3-only* valgud BIM (*Bcl2-interacting mediator of cell death*), BID (*BH3-interacting domain death agonist*) ja BAD (*Bcl2-associated agonist of cell death*) ning multi BH domääne sisaldavad valgud BAX (*Bcl2-associated protein X*), BAK (*Bcl2 antagonist/killer*) ja BOK.
-- Anti-apoptootilised (*prosurvival*) BCL-2, BCL-XL (*B cell lymphoma extra large*) ja MCL-1 (*induced myeloid leukemia cell differentiation protein*), mis sisaldavad kõiki BH1-BH4 domääne.
-- Anti-apoptootilised valgud toimivad nii, et nad sekvesteerivad pro-apoptootilised valgud.
+- Pro- ja anti-apoptootiliste BCL-2 perekonna valkude tasakaal määrab mitokondriaalse raja aktiveerumise
+- BCL-2 valke klassifitseeritakse valgus olevate BH domäänide (*BCL-2 homology*) järgi
+- Pro-apoptootilised BCL-2 valkude hulka kuuluvad *BH3-only* valgud BIM (*Bcl2-interacting mediator of cell death*), BID (*BH3-interacting domain death agonist*) ja BAD (*Bcl2-associated agonist of cell death*) ning multi BH domääne sisaldavad valgud BAX (*Bcl2-associated protein X*), BAK (*Bcl2 antagonist/killer*) ja BOK
+- Anti-apoptootilised (*prosurvival*) BCL-2, BCL-XL (*B cell lymphoma extra large*) ja MCL-1 (*induced myeloid leukemia cell differentiation protein*), mis sisaldavad kõiki BH1-BH4 domääne
+- Anti-apoptootilised valgud toimivad nii, et nad sekvesteerivad pro-apoptootilised valgud
 
 
 ```{r, out.width='30%'}
