@@ -263,7 +263,7 @@ knitr::include_graphics("figures/p21inhibitsapoptosis.png")
 
 Peamised p53 stabilisatsiooni rajad
 - dsDNA kahjustus, ioniseeriv kiirgus, telomeeride lühenemine aktiveerib ATM to Chk2 raja.
-- ssDNA, UV kiirgus, replikatsioonistress, kemoterapeutikumid akiveerivad ATR (*ATM–Rad3-related protein*) to Chk1 raja.
+- ssDNA, UV kiirgus, replikatsioonistress, kemoterapeutikumid akiveerivad ATR (*ATM–Rad3-related protein*) to Chk1/2 raja.
 - p53 fosforüleeritakse amino terminusest Ser-15, Ser-37 jt.
 - Amino-terminaalne fosforüleerimine blokeerib **MDM2** sidumise p53.
 - Myc või E2F1 aktivatsioon viib rakus **p19<sup>ARF</sup>** valgu taseme ülesse, mis blokeerib MDM2 ja võib viia rakud apoptoosi.
@@ -290,6 +290,7 @@ knitr::include_graphics("figures/p53MDM2.jpg")
 - Mdm2 on p53 märklaudgeen
 - MDM2 ekspressiooni indutseerib ka mitogeenne signalisatsioon läbi MAPK raja (AP-1 TF)
 - Samuti stabiliseerib MDM2 Akt/PKB, mille poolt fosfoforüleerimine blokeerib MDM2 auto-ubikvitineerimise
+- MDM inaktiveeritakse läbi ATR/ATM/Chk2 fosforüleerimise
 ]
 
 .footer[Double-minute kromosoomid on ekstrakoromosomaalne DNA kasvajates mis on tekkinud geeniamplifikatsiooni tagajärjel.]
@@ -301,7 +302,7 @@ knitr::include_graphics("figures/p53MDM2.jpg")
 
 - p19<sup>ARF</sup> (hiir) või p14<sup>ARF</sup> (inimene) valku kodeerib kompaktne geneetiline lookus kus asub kokku kolm tuumorsupressorgeeni: p16<sup>INK4A</sup>, p15<sup>INK4B</sup> ja p19/p14<sup>ARF</sup>.
 - ARF geeni promootor asub 13 kB ülevalpool p16^INK4A promootorist. ARF - _**a**lternative **r**eading **f**rame_.
-- ARF seob MDM2 ja inhibeerib selle korjates ta tuumakesse.
+- ARF seob MDM2 ja inhibeerib selle korjates ta tuumakesse
 - ARF ekspressiooni aktiveerivad c-MYC, RAS ja ka adenoviiruse E1A.
 
 ```{r}
@@ -314,9 +315,9 @@ knitr::include_graphics("http://www.hhmi.org/sites/default/files/Our%20Scientist
 
 ## Rb funktsiooni kadumine käivitab ka apoptoosi programmi
 
-- E2F liigse aktiivsuse puhuks on evolutsiooniliselt kujunenud mehhanism, mis elimineerib normaalse pRb kontrolli kaotanud rakud.
-- Kõrge E2F1 aktiveerib mitmete apoptootiliste geenide transkriptsiooni: kaspaasid (3,7,8,9), pro-apoptootilised Bcl2 valgud (Bim, Noxa, PUMA), Apaf-1 ja p73 (p53 homoloog).
-- E2F1/2 reguleerib ka p53-sõltuvat apoptoosi indutseerides p14^ARF .
+- E2F liigse aktiivsuse puhuks on evolutsiooniliselt kujunenud mehhanism, mis elimineerib normaalse pRb kontrolli kaotanud rakud
+- Kõrge E2F1 aktiveerib mitmete apoptootiliste geenide transkriptsiooni: kaspaasid (3,7,8,9), pro-apoptootilised Bcl2 valgud (Bim, Noxa, PUMA), Apaf-1 ja p73 (p53 homoloog)
+- E2F1/2 reguleerib ka p53-sõltuvat apoptoosi indutseerides p14^ARF
 
 RB-sõltuv apoptoosi rada: 
 
