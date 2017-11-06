@@ -317,7 +317,7 @@ knitr::include_graphics("http://www.hhmi.org/sites/default/files/Our%20Scientist
 
 - E2F liigse aktiivsuse puhuks on evolutsiooniliselt kujunenud mehhanism, mis elimineerib normaalse pRb kontrolli kaotanud rakud
 - Kõrge E2F1 aktiveerib mitmete apoptootiliste geenide transkriptsiooni: kaspaasid (3,7,8,9), pro-apoptootilised Bcl2 valgud (Bim, Noxa, PUMA), Apaf-1 ja p73 (p53 homoloog)
-- E2F1/2 reguleerib ka p53-sõltuvat apoptoosi indutseerides p14^ARF
+- E2F1/2 reguleerib ka p53-sõltuvat apoptoosi indutseerides p14<sup>ARF</sup>
 
 RB-sõltuv apoptoosi rada: 
 
@@ -363,9 +363,9 @@ knitr::include_graphics("http://www.nature.com/nrm/journal/v5/n10/images/nrm1491
 
 ## p53 anti-neoplastiline toime on peamiselt tingitud apoptoosi induktsioonist
 
-- p53 aktiveerib näiteks CD95 (Fas/APO1) ja mitmete Bcl-2 perekonna pro-apoptootiliste geenide transkriptsiooni.
+- p53 aktiveerib näiteks CD95 (Fas/APO1) ja mitmete Bcl-2 perekonna pro-apoptootiliste geenide transkriptsiooni
 
-- p53-indutseeritud apoptoos kulgeb siiski peamiselt läbi mitokondriaalse tsütokroom c vahendatud kaspaaside aktivatsiooni.
+- p53-indutseeritud apoptoos kulgeb siiski peamiselt läbi mitokondriaalse tsütokroom c vahendatud kaspaaside aktivatsiooni
 
 ---
 
