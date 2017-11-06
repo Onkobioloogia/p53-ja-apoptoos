@@ -473,10 +473,10 @@ PUMA | gamma-kiirguse resistentsus | pea-kaela lamerakuline kartsinoom, mitte-v�
  | | melanoom | vähenenud ekspressioon
  | | ninaõõne- ja mao kartsinoom | uparrow miR-34a ekspressioon
 NOXA | normaalne | | ei ole muutunud
-BMF | progressiivne B-lümfoidne hüperplaasia | Burkitti lümfoom | downarrow ekspressioon
+BMF | progressiivne B-lümfoidne hüperplaasia | Burkitti lümfoom | ekspr. alla reg.
  | B-raku krooniline lümfotsüütne leukeemia | uparrow ekspressioon
  | rinna-, kopsu- ja käärsoole kasvaja | lookuse 14q14.15 deletsioon
-BAD | ~norm; vähesel määral esineb difuusset suure B-rakulist lümfoomi | käärsoole adenokartsinoom | *loss-of-function* mutatsioon (BH3 domään)", delim = "|")
+BAD | ~norm; vähesel määral esineb difuusset suure B-rakulist lümfoomi | käärsoole adenokartsinoom | loss-of-function mutatsioon (BH3 domään)", delim = "|")
 tab <- knitr::kable(tab, format = 'html')
 kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 ```
